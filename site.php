@@ -62,6 +62,44 @@
     echo substr($phrase, 4);
     echo substr($phrase, 4, 1);
 
+    // Working with Numbers
+    echo 4;
+    echo 4.8764;
+    echo -4;
+    echo -4.49;
+
+    echo 4 + 2;
+    echo 4 / 2;
+    echo 4 * 2;
+    echo 10 % 3;
+    echo 10 + 3 - 4 * 2;
+
+    $num = 10;
+    echo $num;
+
+    $num++;
+    echo $num;
+
+    $num--;
+    echo $num;
+
+    $num = $num + 5;
+    echo $num;
+
+    $num += 5;
+    echo $num;
+
+    echo abs(-10); // convert to positive
+    echo pow(4, 2);
+    echo sqrt(25);
+
+    echo max(25, 2);
+    echo min(25, 2);
+
+    echo round(3.1);
+    echo ceil(3.1); // always rounds upper
+    echo floor(3.2); // always rounds lower
+
     ?>
 </body>
 

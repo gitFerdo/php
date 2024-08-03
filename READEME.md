@@ -6,3 +6,4 @@
 - Variables
 - Data Types
   - Working with String
+  - Working with Numbers
