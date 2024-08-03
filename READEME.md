@@ -5,3 +5,4 @@
 - Writing HTML
 - Variables
 - Data Types
+  - Working with String

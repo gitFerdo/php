@@ -36,7 +36,32 @@
 
     $isMale = true;
 
+    echo "$phrase <br>";
+
+    // working with string
+    $phrase = "Academy";
+
     echo $phrase;
+
+    echo strtolower($phrase);
+
+    echo strtoupper($phrase);
+    echo strtoupper("dog");
+    
+    echo strlen($phrase);
+    
+    echo $phrase[1];
+    echo "apple"[1];
+    
+    $phrase[0] = "z";
+    echo $phrase;
+    
+    $phrase = "red apple";
+    echo str_replace("red", "blue", $phrase);
+
+    echo substr($phrase, 4);
+    echo substr($phrase, 4, 1);
+
     ?>
 </body>
 
