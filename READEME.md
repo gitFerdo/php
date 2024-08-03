@@ -8,3 +8,4 @@
   - Working with String
   - Working with Numbers
 - Getting user input
+- Building basic Calculator
