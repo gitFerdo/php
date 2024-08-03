@@ -98,7 +98,7 @@
 
     echo round(3.1);
     echo ceil(3.1); // always rounds upper
-    echo floor(3.2); // always rounds lower
+    echo floor(3.2); // always rounds lower 
 
     ?>
 </body>
