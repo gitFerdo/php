@@ -12,3 +12,4 @@
 - Building Mad Libs game
 - URL Parameters
   - POST vs GET
+- Array
