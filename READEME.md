@@ -11,3 +11,4 @@
 - Building basic Calculator
 - Building Mad Libs game
 - URL Parameters
+  - POST vs GET

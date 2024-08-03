@@ -6,16 +6,30 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- GET -->
     <form action="url.php" method="get">
-        Name: <input type="text" name="name"> <br>
+        Password: <input type="password" name="password"> <br>
 
         <input type="submit">
     </form>
     <br> <br>
 
     <?php
-    echo $_GET["name"];
-    echo $_GET["age"];
+    echo $_GET["password"];
+    ?>
+
+    <br> <br>
+   
+   <!-- POST -->
+    <form action="url.php" method="post">
+        Password: <input type="password" name="password"> <br>
+
+        <input type="submit">
+    </form>
+    <br> <br>
+
+    <?php
+    echo $_POST["password"];
     ?>
 </body>
 </html>
