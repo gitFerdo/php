@@ -4,3 +4,4 @@
 
 - Writing HTML
 - Variables
+- Data Types

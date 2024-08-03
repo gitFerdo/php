@@ -11,6 +11,7 @@
     <?php
     echo ("Hello, world!");
     echo "echo 1";
+    echo 30;
     echo "<h1>echo 2</h1>";
     echo "<hr>";
     echo "<p>echo 3</p>";
@@ -23,9 +24,19 @@
     echo "Age: $age <br>";
 
     $name = "Alice";
-    
+
     echo "My name is $name <br>";
     echo "My age is $age <br>";
+
+    // Data Types
+    $phrase = "string";
+
+    $integerNo = 20;
+    $decimalNo = 2.4;
+
+    $isMale = true;
+
+    echo $phrase;
     ?>
 </body>
 
