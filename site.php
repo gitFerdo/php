@@ -14,6 +14,18 @@
     echo "<h1>echo 2</h1>";
     echo "<hr>";
     echo "<p>echo 3</p>";
+
+    // Variables
+    $name = "John";
+    $age = 46;
+
+    echo "Name: $name <br>";
+    echo "Age: $age <br>";
+
+    $name = "Alice";
+    
+    echo "My name is $name <br>";
+    echo "My age is $age <br>";
     ?>
 </body>
 
