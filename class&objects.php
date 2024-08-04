@@ -29,6 +29,32 @@
         $book2 = new Book("Lord of the Rings", "Tolkien", 800);
 
         echo $book1 -> title;
+
+        class Student {
+            var $name;
+            var $major;
+            var $gpa;
+
+            function __construct($name, $major, $gpa) {
+                $this -> name = $name;
+                $this -> major = $major;
+                $this -> gpa = $gpa;
+            }
+
+            // Object Functions
+            function hasHonors() {
+                if($this -> gpa >= 3.5){
+                    return "true";
+                }
+
+                return "false";
+            }
+        }
+
+        $student1 = new Student("John","Business", 2.5);
+        $student2 = new Student("Tim","Art", 3.8);
+
+        echo $student2 -> hasHonors();
     ?>
 </body>
 </html>

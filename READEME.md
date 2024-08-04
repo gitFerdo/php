@@ -29,3 +29,4 @@
   - PHP
 - Classes & Objects
 - Constructors
+- Object Functions
