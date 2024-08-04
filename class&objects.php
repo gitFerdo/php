@@ -12,21 +12,23 @@
             var $title;
             var $author;
             var $pages;
+
+            // Create Constructor
+            function __construct($aTitle, $aAuthor, $aPages){
+                echo "New Book <br>";
+
+                $this -> title = $aTitle;
+                $this -> author = $aAuthor;
+                $this -> pages = $aPages;
+            }
         }
 
-        $book1 = new Book;
-        $book1 -> title = "Harry Potter";
-        $book1 -> author = "JK Rowling";
-        $book1 -> pages = 500;
+        $book1 = new Book("Harry Potter", "JK Rowling", 500);
+        $book1 -> title = "Book";
+
+        $book2 = new Book("Lord of the Rings", "Tolkien", 800);
 
         echo $book1 -> title;
-        echo $book1 -> author;
-        echo $book1 -> pages;
-
-        $book2 = new Book;
-        $book2 -> title = "Lord of the Rings";
-        $book2 -> author = "Tolkien";
-        $book2 -> pages = 800;
     ?>
 </body>
 </html>
