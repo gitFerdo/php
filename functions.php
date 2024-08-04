@@ -112,6 +112,18 @@
          $index++;
        }
        ?>
+       <br><br><br>
+
+       <!-- Do While Loop -->
+       <?php
+       $index = 1;
+
+       do {
+         echo "$index <br>";
+         $index++;
+       } while($index <= 5);
+       ?>
+       
 </body>
 
 </html>
