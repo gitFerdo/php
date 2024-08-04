@@ -123,7 +123,20 @@
          $index++;
        } while($index <= 5);
        ?>
+       <br><br><br>
        
+       <!-- for while loops -->
+        <?php
+        for($index = 0; $index <= 5; $index++) {
+         echo "$index <br>";
+        }
+
+        $array = array(4, 8, 6, 7, 6, 35, 10, 9);
+
+        for($i = 0; $i < count($array); $i++) {
+         echo "$array[$i] <br>";
+        }
+        ?>
 </body>
 
 </html>
