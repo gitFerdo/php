@@ -13,3 +13,4 @@
 - URL Parameters
   - POST vs GET
 - Array
+- Using Checkbox
