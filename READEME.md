@@ -20,3 +20,5 @@
   - If Statement
     - Comparison
   - Switch Statement
+  - While Loops
+    - While
