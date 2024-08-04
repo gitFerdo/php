@@ -27,3 +27,4 @@
 - Including
   - HTML
   - PHP
+- Classes & Objects
