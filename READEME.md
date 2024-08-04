@@ -18,3 +18,4 @@
 - Functions
   - Return Statement
   - If Statement
+    - Comparison
