@@ -13,4 +13,5 @@
 - URL Parameters
   - POST vs GET
 - Array
-- Using Checkbox
+  - Using Checkbox
+  - Associative Array
