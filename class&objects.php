@@ -84,6 +84,43 @@
 
         $avengers -> setRating("G");
         echo $avengers -> getRating();
+
+        // Inheritance
+        class Chef {
+            function makeChicken(){
+                echo "Make Chicken <br>";
+            }
+            
+            function makeSalad(){
+                echo "Make Salad <br>";
+            }
+            
+            function makeSpecialDish(){
+                echo "Make BBQ <br>";
+            }
+        }
+
+        class ItalianChef extends Chef{
+            function makePasta(){
+                echo "Make Pasta <br>";
+            }
+
+            // override function
+            function makeSpecialDish() {
+                echo "Make Pizza <br>";
+            }
+        }
+
+        $chef = new Chef();
+        $chef -> makeChicken();
+        
+        $italianChef = new ItalianChef();
+        $italianChef -> makeChicken();
+        $italianChef -> makePasta();
+
+        // Override
+        $chef -> makeSpecialDish();
+        $italianChef -> makeSpecialDish();
     ?>
 </body>
 </html>

@@ -31,3 +31,4 @@
 - Constructors
 - Object Functions
 - Getters & Setters
+- Inheritance
