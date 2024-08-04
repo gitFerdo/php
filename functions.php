@@ -31,6 +31,23 @@
      $result = cube(3);
      echo $result;
      ?>
+     <br><br><br>
+
+     <!-- If Statement -->
+     <?php
+     $isMale = false;
+     $isTall = true;
+     
+     if($isMale && $isTall){
+        echo "You are Male and tall.";
+     } elseif($isMale && !$isTall){
+        echo "You are Male and short.";
+     } elseif(!$isMale && $isTall){
+        echo "You are Female and tall.";
+     } else{
+        echo "You are Female and short.";
+     }
+     ?>
      
 </body>
 
