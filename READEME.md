@@ -15,3 +15,4 @@
 - Array
   - Using Checkbox
   - Associative Array
+- Functions
