@@ -131,6 +131,7 @@
          echo "$index <br>";
         }
 
+        // for loop array
         $array = array(4, 8, 6, 7, 6, 35, 10, 9);
 
         for($i = 0; $i < count($array); $i++) {
