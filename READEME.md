@@ -24,4 +24,6 @@
     - While
     - Do While Loop
     - For While Loops
-- Including HTML
+- Including
+  - HTML
+  - PHP
