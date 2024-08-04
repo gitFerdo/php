@@ -55,6 +55,35 @@
         $student2 = new Student("Tim","Art", 3.8);
 
         echo $student2 -> hasHonors();
+
+        class Movie {
+            public $title;
+            private $rating;
+
+            function __construct($title, $rating){
+                $this -> title = $title;
+                $this -> setRating($rating);
+            }
+
+            function getRating(){
+                return $this -> rating;
+            }
+
+            function setRating($rating){
+                if($rating == "G" || $rating == "G2"){
+                    $this -> rating = $rating;
+                } else {
+                    $this -> rating = "NR";
+                }
+            }
+        }
+
+        $avengers = new Movie("Avengers", "PG-13");
+
+        echo $avengers -> getRating();
+
+        $avengers -> setRating("G");
+        echo $avengers -> getRating();
     ?>
 </body>
 </html>

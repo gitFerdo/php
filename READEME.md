@@ -30,3 +30,4 @@
 - Classes & Objects
 - Constructors
 - Object Functions
+- Getters & Setters
