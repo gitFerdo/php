@@ -64,7 +64,43 @@
 
       echo getMax(2, 5, 10);
      ?>
+     <br><br><br>
+
+     <!-- switch statement -->
+      <form action="functions.php" method="post">
+         What was your grade? <input type="text" name="grade">
+
+         <input type="submit">
+      </form>
      
+      <?php
+      $grade = $_POST["grade"];
+      
+      switch($grade) {
+         case "A":
+            echo "Your grade amazing!";
+            break;
+
+         case "B":
+            echo "Your grade pretty good!";
+            break;
+
+         case "C":
+            echo "Your grade good!";
+            break;
+
+         case "D":
+            echo "Your grade very bad!";
+            break;
+
+         case "F":
+            echo "Your Fail!";
+            break;
+
+         default:
+            echo "Unknown grade";
+      }
+      ?>
 </body>
 
 </html>

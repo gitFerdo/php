@@ -19,3 +19,4 @@
   - Return Statement
   - If Statement
     - Comparison
+  - Switch Statement
