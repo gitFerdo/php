@@ -18,6 +18,20 @@
     sayHi("Tom", 78);
     sayHi("Adam", 34);
     ?>
+    <br><br><br>
+
+    <!-- Return Statement -->
+     <?php
+     function cube($num){
+        return $num * $num * $num;
+     }
+
+     echo cube(2);
+
+     $result = cube(3);
+     echo $result;
+     ?>
+     
 </body>
 
 </html>
